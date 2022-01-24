@@ -1,0 +1,117 @@
+.container dt,.container dd {
+  width:auto;
+  margin-left:auto; !important;
+  display:inline-block;
+}
+
+.leaflet-container {
+  background-color: white !important;
+}
+
+
+.main-header, .main-header .navbar{
+
+   box-shadow: 0 3px 6px rgba(53, 189, 245, 1) !important;
+}
+
+/* dashboard left header*/
+.skin-blue .main-header .navbar,
+.navbar,
+.navbar-static-top{
+   background-color: #1B2839 !important;
+}
+
+/*sidebar color*/
+.skin-blue .left-side, .skin-blue .main-sidebar, .skin-blue .wrapper{
+  background-color: 	#1B2839 !important;
+  box-shadow: 3px 0 6px rgba(53, 189, 245, 1)) !important;
+  
+}
+
+/*headerbar*/
+.skin-blue .main-header .logo {
+  background-color: 	#1B2839 !important;
+}
+.skin-blue .main-header .logo:hover {
+  background-color: 	#1B2839 !important;
+}
+
+/* header title*/
+.main-header .logo {
+  font-weight: bold;
+  font-size: 14px;
+  background-color: 	#1B2839 !important;
+  color:#FFFAF0 !important;
+}
+
+/*sidebar mouseover*/
+.skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li:hover>a{
+  border-left-color:#35BDF5!important;
+  color:	#FFFFFF !important;
+  background-color: #35BDF5 !important;
+}
+
+/*header bar*/
+.sidebar-toggle{
+  color:#35BDF5 !important;
+}
+
+
+/*control bar*/
+.well{
+  background-color: #35BDF5 !important;
+  border-top: 8px solid #35BDF5;
+}
+
+/*absolutepanel*/
+#controls{
+  border-top: 8px solid #35BDF5 !important;
+  background-color: #35BDF5 !important;
+}
+
+input[type="number"] {
+  max-width: 99%;
+}
+
+.content-wrapper{
+  position: relative !important;
+}
+
+div.outer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+/* fonts */
+body, label, input, button, select { 
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+h1, h2, h3, h4 { font-weight: 450; }
+
+#controls {
+  background-color: white;
+  padding: 0 25px 25px 25px;
+  cursor: move;
+  opacity: 0.70;
+  zoom: 1.0;
+  transition: opacity 500ms 1s;
+}
+#controls:hover {
+  opacity: 0.95;
+  transition-delay: 0;
+}
+
+/* position*/
+#cite {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  font-size: 14px;
+}
+
